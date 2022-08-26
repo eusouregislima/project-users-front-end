@@ -1,16 +1,16 @@
 import styled from "styled-components";
-import Background from "..//../Assets/background1.webp";
+import Background from "../../Assets/background1.webp";
 
-//importo a imagem
+
 
 export const Container = styled.div`
-  // imagens
+  
   background: url("${Background}");
-  background-size: cover; //quando quero que cubra toda a área
-  display: flex; // vai um do lado do outro
-  flex-direction: column; //vai um p baixo do outro
-  align-items: center; // mexe no eixo secundário
-  gap: 40px; // espaçamento
+  background-size: cover; 
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  gap: 40px;
   height: 100vh;
 `;
 
