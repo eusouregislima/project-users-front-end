@@ -14,8 +14,8 @@ export const Button = styled.button`
   align-items: center;
   justify-content: center;
   gap: 15px;
-  color: ${(props) => (props.secondary ? "white" : "black")};
-  background-color: ${(props) => (props.secondary ? "black" : "")};
+  color: ${(props) => (props.primary ? "#FFFFFF" : "#000000")};
+  background-color: ${(props) => (props.primary ? "#000000" : "#FFFFFF")};
 
   &:hover {
     opacity: 0.8;

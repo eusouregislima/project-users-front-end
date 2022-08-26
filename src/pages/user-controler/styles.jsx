@@ -1,17 +1,14 @@
 import styled from "styled-components";
 import Background from "../../assets/background1.webp";
 
-
-
 export const Container = styled.div`
-  
   background: url("${Background}");
-  background-size: cover; 
-  display: flex; 
+  background-size: cover;
+  display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   gap: 40px;
-  height: 100vh;
+  min-height: 100vh;
 `;
 
 export const Image = styled.img`
@@ -51,4 +48,8 @@ export const Input = styled.input`
   font-size: 20px;
   line-height: 28px;
   color: #ffffff;
+
+  &::placeholder {
+    color: #ffffff;
+  }
 `;

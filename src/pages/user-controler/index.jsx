@@ -137,7 +137,7 @@ export const UserControler = () => {
           <Button onClick={addNewUser}>Registrar</Button>
         )}
 
-        <Button secondary onClick={navigateUsers}>
+        <Button primary onClick={navigateUsers}>
           Ver Usuários
         </Button>
       </ContainerItens>
